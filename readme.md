@@ -61,7 +61,7 @@ Creare una base solida per progetti futuri o applicazioni reali.
     ├── <a href="./08-apprendimento-non-supervisionato-clustering/58.3-clustering-gerarchico-ottimizzato.ipynb">Clustering gerarchico (Centinaia di cluster automatico ottimizzato)</a>
     └── <a href="./08-apprendimento-non-supervisionato-clustering/60-dbscan.ipynb">Dbscan (make_moons ipotesi autotune epsilon)</a>
 </pre>
-### Requisiti
+## Requisiti
 I notebook sono scritti in Python 3.8+ e utilizzano le seguenti principali librerie:
 
 numpy, pandas, matplotlib, seaborn, imblearn, scikit-learn, scipy, joblib
