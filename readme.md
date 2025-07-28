@@ -54,12 +54,15 @@ Creare una base solida per progetti futuri o applicazioni reali.
 │   ├── <a href="./07-tecniche-validazioni-ottimizzazioni/52-k-fold-cross-validation.ipynb">K-Fold Cross Validation (stroke dataset)</a>
 │   └── <a href="./07-tecniche-validazioni-ottimizzazioni/54-gridsearchcv-randomsearchcv.ipynb">GridSearchCV, RandomizedSearchCV (real estate csv)</a>
 │
-└── 08-apprendimento-non-supervisionato-clustering/
-    ├── <a href="./08-apprendimento-non-supervisionato-clustering/56-kmeans.ipynb">K-Means (elbow method manuale + automatico)</a>
-    ├── <a href="./08-apprendimento-non-supervisionato-clustering/58-clustering-gerarchico.ipynb">Clustering gerarchico (make_blobs manuale + automatico)</a>
-    ├── <a href="./08-apprendimento-non-supervisionato-clustering/58.2-clustering-gerarchico-ottimizzato.ipynb">Clustering gerarchico (make_blobs manuale + automatico)</a>
-    ├── <a href="./08-apprendimento-non-supervisionato-clustering/58.3-clustering-gerarchico-ottimizzato.ipynb">Clustering gerarchico (Centinaia di cluster automatico ottimizzato)</a>
-    └── <a href="./08-apprendimento-non-supervisionato-clustering/60-dbscan.ipynb">Dbscan (make_moons ipotesi autotune epsilon)</a>
+├── 08-apprendimento-non-supervisionato-clustering/
+│   ├── <a href="./08-apprendimento-non-supervisionato-clustering/56-kmeans.ipynb">K-Means (elbow method manuale + automatico)</a>
+│   ├── <a href="./08-apprendimento-non-supervisionato-clustering/58-clustering-gerarchico.ipynb">Clustering gerarchico (make_blobs manuale + automatico)</a>
+│   ├── <a href="./08-apprendimento-non-supervisionato-clustering/58.2-clustering-gerarchico-ottimizzato.ipynb">Clustering gerarchico (make_blobs manuale + automatico)</a>
+│   ├── <a href="./08-apprendimento-non-supervisionato-clustering/58.3-clustering-gerarchico-ottimizzato.ipynb">Clustering gerarchico (Centinaia di cluster automatico ottimizzato)</a>
+│   └── <a href="./08-apprendimento-non-supervisionato-clustering/60-dbscan.ipynb">Dbscan (make_moons ipotesi autotune epsilon)</a>
+│
+├── 09-riduzione-dimensionalita
+│   ├── <a href="./09-riduzione-dimensionalita/61-principal-component-analisis-solo-pandas-numpy.ipynb">PCA solo pandas e numpy ( dataset stroke portato a 2 dimesnioni)</a>
 </pre>
 ## Requisiti
 I notebook sono scritti in Python 3.8+ e utilizzano le seguenti principali librerie:
