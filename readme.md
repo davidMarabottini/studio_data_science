@@ -11,56 +11,56 @@ Comprendere l'importanza della regolarizzazione e delle tecniche di validazione.
 Creare una base solida per progetti futuri o applicazioni reali.
 
 #### Struttura del repository
-```
+<pre>
 ├──  00 - Data
-│   ├── Advertising.csv
-│   ├── data.csv
-│   ├── healthcare-dataset-stroke-data.csv
-│   ├── Real estate.csv
-│   └── Salary_dataset.csv
+│   ├── <a href="./00-data/advertising.csv">Advertising.csv</a>
+│   ├── <a href="./00-data/data.csv">data.csv</a>
+│   ├── <a href="./00-data/healthcare-dataset-stroke-data.csv">healthcare-dataset-stroke-data.csv</a>
+│   ├── <a href="./00-data/Real estate.csv">Real estate.csv</a>
+│   └── <a href="./00-data/Salary_dataset.csv">Salary_dataset.csv</a>
 │
 ├── 02 - Il dataset
-│   ├── Tipi di dati
-│   ├── Label 1 hot encoder
-│   ├── Missing data
-│   ├── Normalizzazione e standardizzazione
-│   └── Split di dati
+│   ├── <a href="./02-il-dataset/13-tipi_dati.ipynb">Tipi di dati</a>
+│   ├── <a href="./02-il-dataset/14-label-1h-encoder.ipynb">Label 1 hot encoder</a>
+│   ├── <a href="./02-il-dataset/15-missing-data.ipynb">Missing data</a>
+│   ├── <a href="./02-il-dataset/17-normalizzazione_e_standardizzazione.ipynb">Normalizzazione e standardizzazione</a>
+│   └── <a href="./02-il-dataset/19-split_dati.ipynb">Split di dati</a>
 │
 ├── 03-apprendimento-supervisionato-regressione/
-│   ├── Regressione lineare semplice 
-│   ├── Regressione lineare multipla
-│   └── Regressione polinomiale
+│   ├── <a href="./03-apprendimento-supervisionato-regressione/23-regressione-lineare-semplice.ipynb">Regressione lineare semplice</a>
+│   ├── <a href="./03-apprendimento-supervisionato-regressione/25-regressione-lineare-multipla.ipynb">Regressione lineare multipla</a>
+│   └── <a href="./03-apprendimento-supervisionato-regressione/27-polynomial-regression.ipynb">Regressione polinomiale</a>
 │
 ├── 04-regolarizzazioni-modelli-regolarizzati/
-│   └── Overfitting, L1 (Lasso), L2 (Ridge)
+│   └── <a href="./04-regolarizzazioni-modelli-regolarizzati/31-overfitting-l1-l2.ipynb">Overfitting, L1 (Lasso), L2 (Ridge) dataset taiwan</a>
 │
 ├── 05-apprendimento-supervisionato-classificazione/
-│   ├── Regressione logistica
-│   ├── Classificazione one-vs-all (load_digits)
-│   └── Classificazione one-vs-all (Olivetti faces)
+│   ├── <a href="./05-apprendimento-supervisionato-classificazione/33-regressione-logistica.ipynb">Regressione logistica</a>
+│   ├── <a href="./05-apprendimento-supervisionato-classificazione/35-classificazione_onevsall.ipynb">Classificazione one-vs-all (load_digits)</a>
+│   └── <a href="./05-apprendimento-supervisionato-classificazione/35.2-classificazione_onevsall-olivetti_faces.ipynb">Classificazione one-vs-all (Olivetti faces)</a>
 │
 ├── 06-classificazioni-non-lineari/
-│   ├── k-NN (Olivetti faces)
-│   ├── Alberi decisionali (load_wine)
-│   ├── Alberi decisionali (stroke dataset)
-│   ├── Foreste casuali (stroke dataset)
-│   ├── Foreste casuali (wine_dataset)
-│   ├── SVM Lineari (wine_dataset)
-│   ├── SVM Kernel Trick (make_circles)
-│   └── Percettore multistrato (reti neurali - census)
+│   ├── <a href="./06-classificazioni-non-lineari/37-knn.ipynb">k-NN (Olivetti faces)</a>
+│   ├── <a href="./06-classificazioni-non-lineari/39-alberi-decisionali.ipynb">Alberi decisionali (load_wine)</a>
+│   ├── <a href="./06-classificazioni-non-lineari/39-failed-alberi-decisionali.ipynb">Alberi decisionali (stroke dataset)</a>
+│   ├── <a href="./06-classificazioni-non-lineari/41-foreste-casuali.ipynb">Foreste casuali (stroke dataset)</a>
+│   ├── <a href="./06-classificazioni-non-lineari/41.2-foreste-casuali.ipynb">Foreste casuali (wine_dataset)</a>
+│   ├── <a href="./06-classificazioni-non-lineari/43-svm-lineari.ipynb">SVM Lineari (wine_dataset)</a>
+│   ├── <a href="./06-classificazioni-non-lineari/45-svn-kernel-trick.ipynb">SVM Kernel Trick (make_circles)</a>
+│   └── <a href="./06-classificazioni-non-lineari/48-percettore-multistrato-rete-neurale.ipynb">Percettore multistrato (reti neurali - census)</a>
 │
 ├── 07-tecniche-validazioni-ottimizzazioni/
-│   ├── Stochastic, minibatch e gradient descend (make_classification)
-│   ├── K-Fold Cross Validation (stroke dataset)
-│   └── GridSearchCV, RandomizedSearchCV (real estate csv)
+│   ├── <a href="./07-tecniche-validazioni-ottimizzazioni/50-stochastic-minibatch-gradient-desc.ipynb">Stochastic, minibatch e gradient descend (make_classification)</a>
+│   ├── <a href="./07-tecniche-validazioni-ottimizzazioni/52-k-fold-cross-validation.ipynb">K-Fold Cross Validation (stroke dataset)</a>
+│   └── <a href="./07-tecniche-validazioni-ottimizzazioni/54-gridsearchcv-randomsearchcv.ipynb">GridSearchCV, RandomizedSearchCV (real estate csv)</a>
 │
 └── 08-apprendimento-non-supervisionato-clustering/
-    ├── K-Means (elbow method manuale + automatico)
-    ├── Clustering gerarchico (make_blobs manuale + automatico)
-    ├── Clustering gerarchico (make_blobs manuale + automatico)
-    ├── Clustering gerarchico (Centinaia di cluster automatico ottimizzato)
-    └── Dbscan (make_moons ipotesi autotune epsilon)
-```
+    ├── <a href="./08-apprendimento-non-supervisionato-clustering/56-kmeans.ipynb">K-Means (elbow method manuale + automatico)</a>
+    ├── <a href="./08-apprendimento-non-supervisionato-clustering/58-clustering-gerarchico.ipynb">Clustering gerarchico (make_blobs manuale + automatico)</a>
+    ├── <a href="./08-apprendimento-non-supervisionato-clustering/58.2-clustering-gerarchico-ottimizzato.ipynb">Clustering gerarchico (make_blobs manuale + automatico)</a>
+    ├── <a href="./08-apprendimento-non-supervisionato-clustering/58.3-clustering-gerarchico-ottimizzato.ipynb">Clustering gerarchico (Centinaia di cluster automatico ottimizzato)</a>
+    └── <a href="./08-apprendimento-non-supervisionato-clustering/60-dbscan.ipynb">Dbscan (make_moons ipotesi autotune epsilon)</a>
+</pre>
 ### Requisiti
 I notebook sono scritti in Python 3.8+ e utilizzano le seguenti principali librerie:
 
