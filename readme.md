@@ -25,6 +25,7 @@ Creare una base solida per progetti futuri o applicazioni reali.
 │   ├── Missing data
 │   ├── Normalizzazione e standardizzazione
 │   └── Split di dati
+│
 ├── 03-apprendimento-supervisionato-regressione/
 │   ├── Regressione lineare semplice 
 │   ├── Regressione lineare multipla
@@ -54,11 +55,11 @@ Creare una base solida per progetti futuri o applicazioni reali.
 │   └── GridSearchCV, RandomizedSearchCV (real estate csv)
 │
 └── 08-apprendimento-non-supervisionato-clustering/
-     ├── K-Means (elbow method manuale + automatico)
-     ├── Clustering gerarchico (make_blobs manuale + automatico)
-     ├── Clustering gerarchico (make_blobs manuale + automatico)
-     ├── Clustering gerarchico (Centinaia di cluster automatico ottimizzato)
-     └── Dbscan (make_moons ipotesi autotune epsilon)
+    ├── K-Means (elbow method manuale + automatico)
+    ├── Clustering gerarchico (make_blobs manuale + automatico)
+    ├── Clustering gerarchico (make_blobs manuale + automatico)
+    ├── Clustering gerarchico (Centinaia di cluster automatico ottimizzato)
+    └── Dbscan (make_moons ipotesi autotune epsilon)
 ```
 ### Requisiti
 I notebook sono scritti in Python 3.8+ e utilizzano le seguenti principali librerie:
@@ -72,11 +73,13 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy joblib
 
 #### Come iniziare
 Clona il repository:
-git clone https://github.com/tuo-username/nome-repo.git
+```
+git clone https://github.com/davidMarabottini/studio_data_science.git
+```
 
-Avvia un programma capace di leggere yupiter notebook
+Avvia un programma capace di leggere notebook yupiter
 
-Esplora liberamente i notebook. Ogni cartella e ogni file è stato creato dopo aver appreso delle nozioni da un corso udemy, spesso cercando sfide più complesse rispetto a quelle proposte dal corso e venendo così costretto ad apprendere e sperimentare molte più tecniche di quelle proposte fino a quel punto (vedi pipeline, oversampling, undersampling, tentativi di clustering automatico e altro).
+Esplora liberamente i notebook. Ogni cartella e ogni file è stato creato dopo aver appreso delle nozioni da un corso udemy, spesso cercando sfide più complesse rispetto a quelle proposte dal corso ed essendo così costretto ad apprendere e sperimentare molte più tecniche di quelle proposte fino a quel punto (vedi pipeline, oversampling, undersampling, tentativi di clustering automatico e altro).
 
 Note
 Attualmente i file .ipynb contengono codice e considerazioni varie.
