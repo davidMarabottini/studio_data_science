@@ -63,6 +63,9 @@ Creare una base solida per progetti futuri o applicazioni reali.
 │
 ├── 09-riduzione-dimensionalita
 │   ├── <a href="./09-riduzione-dimensionalita/61-principal-component-analisis-solo-pandas-numpy.ipynb">PCA solo pandas e numpy ( dataset stroke portato a 2 dimesnioni)</a>
+│   ├── <a href="./09-riduzione-dimensionalita/61.2-pca-solo-pandas-numpy-function.ipynb">PCA 2 solo pandas e numpy ( dataset stroke portato a 2 dimesnioni)</a>
+│   ├── <a href="./09-riduzione-dimensionalita/62-pca-visualizzazione-dataset-analisi-stroke.ipynb">PCA visualizzazione e modello ( dataset stroke portato a 2 dimesnioni)</a>
+
 </pre>
 ## Requisiti
 I notebook sono scritti in Python 3.8+ e utilizzano le seguenti principali librerie:
