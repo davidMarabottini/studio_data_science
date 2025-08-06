@@ -65,6 +65,7 @@ Creare una base solida per progetti futuri o applicazioni reali.
 │   ├── <a href="./09-riduzione-dimensionalita/61-principal-component-analisis-solo-pandas-numpy.ipynb">PCA solo pandas e numpy ( dataset stroke portato a 2 dimesnioni)</a>
 │   ├── <a href="./09-riduzione-dimensionalita/61.2-pca-solo-pandas-numpy-function.ipynb">PCA 2 solo pandas e numpy ( dataset stroke portato a 2 dimesnioni)</a>
 │   ├── <a href="./09-riduzione-dimensionalita/62-pca-visualizzazione-dataset-analisi-stroke.ipynb">PCA visualizzazione e modello ( dataset stroke portato a 2 dimesnioni)</a>
+│   ├── <a href="./09-riduzione-dimensionalita/63-selezionare-nr-componenti-principali.ipynb">PCA Selezionare nr componenti principali (dataset stroke a 11 dimensioni, hard voting a 2 livelli con macchina a vettori di supporto)</a>
 
 </pre>
 ## Requisiti
