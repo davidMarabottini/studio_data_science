@@ -12,6 +12,9 @@ Creare una base solida per progetti futuri o applicazioni reali.
 
 #### Struttura del repository
 <pre>
+├── 000 - in evidenza
+|   └── <a href="./000-in-evidenza/01-titanic">01 - titanic</a>
+|
 ├──  00 - Data
 │   ├── <a href="./00-data/advertising.csv">Advertising.csv</a>
 │   ├── <a href="./00-data/data.csv">data.csv</a>
