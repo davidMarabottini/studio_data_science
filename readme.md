@@ -30,6 +30,7 @@ Creare una base solida per progetti futuri o applicazioni reali.
 │   └── <a href="./02-il-dataset/19-split_dati.ipynb">Split di dati</a>
 │
 ├── 03-apprendimento-supervisionato-regressione/
+|   ├── <a href="./03-apprendimento-supervisionato-regressione/23-regressione-lineare-semplice-np-pd.ipynb">Regressione lineare semplice usando solo numpy</a>
 │   ├── <a href="./03-apprendimento-supervisionato-regressione/23-regressione-lineare-semplice.ipynb">Regressione lineare semplice</a>
 │   ├── <a href="./03-apprendimento-supervisionato-regressione/25-regressione-lineare-multipla.ipynb">Regressione lineare multipla</a>
 │   └── <a href="./03-apprendimento-supervisionato-regressione/27-polynomial-regression.ipynb">Regressione polinomiale</a>
