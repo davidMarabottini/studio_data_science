@@ -1,7 +1,17 @@
 import pandas as pd
 
 def csv_continue_to_ds_discreet():
+  
+  
   stroke = pd.read_csv('../data/healthcare-dataset-stroke-data.csv')
+  
+  no_bmi_error = ~stroke['bmi'].isnull() & (stroke['bmi'] >= 15) & (stroke['bmi'] < 60)
+  stroke = stroke[no_bmi_error]
+
+  no_other_gender = stroke['gender'] != 'Other'
+  stroke = stroke[no_other_gender]
+  
+  stroke = stroke.reset_index(drop=True)
 
   X = stroke.drop(columns=['stroke', 'id'])
   y = stroke['stroke'].values
@@ -16,21 +26,10 @@ def csv_continue_to_ds_discreet():
   X['glucose_high_risk'] = X['avg_glucose_level'] >= 220
   X.drop(columns=['avg_glucose_level'], inplace=True)
 
-  X['bmi_error'] = (X['bmi'] < 15) | (X['bmi'] >= 60)
-  X['bmi_low_risk'] = (X['bmi'] >= 15) & (X['bmi'] < 25)
+  X['bmi_low_risk'] = X['bmi'] < 25
   X['bmi_medium_risk'] = (X['bmi'] >= 25) & (X['bmi'] < 40)
-  X['bmi_high_risk'] = (X['bmi'] >= 40) & (X['bmi'] < 60)
+  X['bmi_high_risk'] = X['bmi'] >= 40
   X.drop(columns=['bmi'], inplace=True)
-
-  no_bmi_error = X['bmi_error'] == False
-  X = X[no_bmi_error]
-  y = y[no_bmi_error]
-
-  no_other_gender = X['gender'] != 'Other'
-  X = X[no_other_gender]
-  y = y[no_other_gender]
-
-  X.drop(columns=['bmi_error'], inplace=True)
 
   X['male'] = X['gender'] == 'Male'
   X.drop(columns=['gender'], inplace=True)

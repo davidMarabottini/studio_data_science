@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def evaluate_predictions(predictions, y_true, y_proba=None, model_name="Modello"):
   cm = confusion_matrix(y_true, predictions)
-  class_names = ['Classe 0 (Morto)', 'Classe 1 (Sopravvissuto)']
+  class_names = ['Classe 0 (Non ictus)', 'Classe 1 (Ictus)']
   
   disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=class_names)
   disp.plot(values_format='d')
